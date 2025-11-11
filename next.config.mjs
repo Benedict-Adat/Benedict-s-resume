@@ -7,6 +7,8 @@ const nextConfig = {
     unoptimized: true,
   },
   output: 'export',
+  basePath: '/My-resume',
+  assetPrefix: '/My-resume',
 }
 
 export default nextConfig
