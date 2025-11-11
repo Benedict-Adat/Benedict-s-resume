@@ -7,7 +7,6 @@
     "dev": "next dev",
     "lint": "eslint .",
     "start": "next start",
-    "build:docs": "next build && copy-item ./out/* ./docs -Recurse -Force",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d out"
   },
