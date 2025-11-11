@@ -77,7 +77,7 @@ export default function Hero() {
               {/* Profile Image */}
               <div className="relative rounded-2xl overflow-hidden border-2 border-accent/30 shadow-2xl button-hover-animation hover:border-accent/60">
                 <Image
-                  src="../public/profile.jpg"
+                  src="https://drive.google.com/file/d/1tqTvwGDj2lsgDalnb8ikFySixDQaGAEo/view?usp=drive_link"
                   alt="Benedict Okon-Effiong"
                   width={400}
                   height={500}
