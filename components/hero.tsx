@@ -77,7 +77,7 @@ export default function Hero() {
               {/* Profile Image */}
               <div className="relative rounded-2xl overflow-hidden border-2 border-accent/30 shadow-2xl button-hover-animation hover:border-accent/60">
                 <Image
-                  src="/profile.jpg"
+                  src="../public/profile.jpg"
                   alt="Benedict Okon-Effiong"
                   width={400}
                   height={500}
