@@ -76,8 +76,10 @@ export default function Hero() {
 
               {/* Profile Image */}
               <div className="relative rounded-2xl overflow-hidden border-2 border-accent/30 shadow-2xl button-hover-animation hover:border-accent/60">
+                {/** Use NEXT_PUBLIC_BASE_PATH so the image resolves correctly when hosted under a repo subpath (GitHub Pages). */}
+                {/* NEXT_PUBLIC_BASE_PATH should be set to '/Benedict-s-resume' in production (.env.production) */}
                 <Image
-                  src="/profile.jpg"
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/profile.jpg`}
                   alt="Benedict Okon-Effiong"
                   width={400}
                   height={500}
