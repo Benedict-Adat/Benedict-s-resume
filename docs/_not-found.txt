@@ -12,3 +12,4 @@ b:I[9007,["/_next/static/chunks/5d5e03acf2f3037a.js","/_next/static/chunks/1e109
 8:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 a:[["$","title","0",{"children":"Benedict Okon-Effiong - Full stack Developer"}],["$","meta","1",{"name":"description","content":"Portfolio of Benedict Okon-Effiong, a skilled Full stack Developer and UI/UX Designer"}],["$","meta","2",{"name":"generator","content":"B0.app"}]]
 6:null
+
